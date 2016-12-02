@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843EA6201DF1666B004722FB /* nivel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843EA61F1DF1666B004722FB /* nivel2.swift */; };
+		8441D6171DF102C9007F1135 /* nivel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441D6161DF102C9007F1135 /* nivel1.swift */; };
 		849C7A041DF0A3FA00D6F1F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C7A031DF0A3FA00D6F1F3 /* AppDelegate.swift */; };
 		849C7A061DF0A3FA00D6F1F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C7A051DF0A3FA00D6F1F3 /* ViewController.swift */; };
 		849C7A091DF0A3FA00D6F1F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C7A071DF0A3FA00D6F1F3 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		849C7A0E1DF0A3FA00D6F1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C7A0C1DF0A3FA00D6F1F3 /* LaunchScreen.storyboard */; };
 		849C7A191DF0A3FC00D6F1F3 /* DuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C7A181DF0A3FC00D6F1F3 /* DuolingoTests.swift */; };
 		849C7A241DF0A3FC00D6F1F3 /* DuolingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C7A231DF0A3FC00D6F1F3 /* DuolingoUITests.swift */; };
+		84C711461DF0F69A00F5E3AE /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C711451DF0F69A00F5E3AE /* mainPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843EA61F1DF1666B004722FB /* nivel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nivel2.swift; sourceTree = "<group>"; };
+		8441D6161DF102C9007F1135 /* nivel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nivel1.swift; sourceTree = "<group>"; };
 		849C7A001DF0A3FA00D6F1F3 /* Duolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C7A031DF0A3FA00D6F1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849C7A051DF0A3FA00D6F1F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		849C7A1F1DF0A3FC00D6F1F3 /* DuolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C7A231DF0A3FC00D6F1F3 /* DuolingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoUITests.swift; sourceTree = "<group>"; };
 		849C7A251DF0A3FC00D6F1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C711451DF0F69A00F5E3AE /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				849C7A0A1DF0A3FA00D6F1F3 /* Assets.xcassets */,
 				849C7A0C1DF0A3FA00D6F1F3 /* LaunchScreen.storyboard */,
 				849C7A0F1DF0A3FA00D6F1F3 /* Info.plist */,
+				84C711451DF0F69A00F5E3AE /* mainPage.swift */,
+				8441D6161DF102C9007F1135 /* nivel1.swift */,
+				843EA61F1DF1666B004722FB /* nivel2.swift */,
 			);
 			path = Duolingo;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					849C79FF1DF0A3F900D6F1F3 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					849C7A131DF0A3FC00D6F1F3 = {
@@ -260,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				849C7A061DF0A3FA00D6F1F3 /* ViewController.swift in Sources */,
+				84C711461DF0F69A00F5E3AE /* mainPage.swift in Sources */,
+				8441D6171DF102C9007F1135 /* nivel1.swift in Sources */,
 				849C7A041DF0A3FA00D6F1F3 /* AppDelegate.swift in Sources */,
+				843EA6201DF1666B004722FB /* nivel2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +423,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Duolingo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.itmorelia.Duolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -422,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Duolingo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.itmorelia.Duolingo;
@@ -503,6 +519,7 @@
 				849C7A2A1DF0A3FC00D6F1F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849C7A2B1DF0A3FC00D6F1F3 /* Build configuration list for PBXNativeTarget "DuolingoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				849C7A2D1DF0A3FC00D6F1F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849C7A2E1DF0A3FC00D6F1F3 /* Build configuration list for PBXNativeTarget "DuolingoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				849C7A301DF0A3FC00D6F1F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

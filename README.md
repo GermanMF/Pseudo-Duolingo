@@ -5,5 +5,5 @@ Mini Duolingo in Swift language. Optimized for iPhone SE. It has two games:
 
 * Level 2: A label at the top of the screen shows a word in english/spanish with 1 image below and a textField; you have to type the correct translation of the word to get a congratulation message, or type it wrong and you will get a reflexive message
 
-##Used technologies:
+## Used technologies:
 * Swift
